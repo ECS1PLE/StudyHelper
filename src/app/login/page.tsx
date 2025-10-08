@@ -1,5 +1,6 @@
 import UIButton from "@/components/Button/Button";
 import Input from "@/components/Input/Input";
+import Link from "next/link";
 
 const login = () => {
     return(
@@ -14,9 +15,11 @@ const login = () => {
                         <UIButton color="white">
                             Войти
                         </UIButton>
-                        <UIButton color="transparent">
-                            Регистрация
-                        </UIButton>
+                        <Link href="/register">
+                            <UIButton color="transparent">
+                                Регистрация
+                            </UIButton>
+                        </Link>
                     </section>
                 </div>
             </div>
