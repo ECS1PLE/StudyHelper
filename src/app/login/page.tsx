@@ -24,7 +24,7 @@ const login = () => {
                 </div>
             </div>
             <div className="flex relative w-[50vw] h-[100vh] justify-center bg-white">
-                <p className="flex my-auto text-5xl text-center text-black">XWorld</p>
+                <p className="flex my-auto text-5xl text-center text-black">StudyHelper to LETI</p>
             </div>
         </div>
     )
